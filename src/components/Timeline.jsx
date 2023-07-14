@@ -1,4 +1,3 @@
-import React from "react";
 import timeline from "../data/timeline";
 import SectionTitle from "./SectionTitle";
 import TimelineItem from "./TimelineItem";

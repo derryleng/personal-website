@@ -1,5 +1,3 @@
-import React from "react";
-
 function TimelineItem({ dateStart, dateEnd, title, description }) {
     return (
         <div>

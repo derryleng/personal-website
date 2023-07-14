@@ -1,5 +1,3 @@
-import React from "react";
-
 function Header() {
     return (
         <div className="flex flex-col items-center justify-center pt-20 pb-6 text-center">
