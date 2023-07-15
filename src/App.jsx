@@ -8,12 +8,12 @@ import Timeline from "./components/Timeline";
 function App() {
   return (
     <>
-      <Navigation />
-      <div className="px-2 text-black bg-white dark:bg-slate-800 dark:text-stone-200 md:px-0">
+      <div className="text-black transition-colors duration-500 bg-white dark:bg-slate-800 dark:text-stone-200">
+        <Navigation />
         <Header />
         <Portfolio />
         <Timeline />
-        {/* <Contact /> */}
+        <Contact />
         <Footer />
       </div>
     </>
