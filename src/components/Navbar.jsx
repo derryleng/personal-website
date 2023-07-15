@@ -69,7 +69,7 @@ function Navbar() {
                     <button
                         type="button"
                         onClick={handleThemeSwitch}
-                        className="w-6 h-6 rounded-md bg-violet-500 dark:bg-orange-500"
+                        className="w-6 h-6 rounded-full bg-violet-900 dark:bg-yellow-400"
                     >
                         {theme === "dark" ? sun : moon}
                     </button>
