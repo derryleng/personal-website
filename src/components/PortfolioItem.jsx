@@ -1,6 +1,6 @@
-function PortfolioItem({ title, link, imgUrl, description, stack}) {
+function PortfolioItem({ title, link, imgUrl, description, stack }) {
     return (
-        <div className="overflow-hidden border-2 rounded-md border-stone-500">
+        <div className="my-4 rounded-md w-80 md:my-0 md:shadow-2xl">
             <img
                 src={imgUrl}
                 alt=""
