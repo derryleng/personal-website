@@ -14,7 +14,7 @@ function App() {
         <Portfolio />
         <Timeline />
         {/* <Contact /> */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   )
