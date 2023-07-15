@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <div className="px-2 md:px-0">
+      <div className="px-2 text-black bg-white dark:bg-slate-800 dark:text-stone-200 md:px-0">
         <Header />
         <Portfolio />
         <Timeline />
