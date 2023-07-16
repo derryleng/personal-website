@@ -1,3 +1,6 @@
+import timelineItems from "./DataTimeline";
+import SectionTitle from "./SectionTitle";
+
 function TimelineItem({ dateStart, dateEnd, title, organisation, role, location, description, additionalList }) {
     return (
         <div>
@@ -42,4 +45,25 @@ function TimelineItem({ dateStart, dateEnd, title, organisation, role, location,
     )
 }
 
-export default TimelineItem;
+export default function Timeline() {
+    return (
+        <div className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
+            <div className="w-full md:w-7/12">
+            <SectionTitle>Timeline</SectionTitle>
+                {timelineItems.map((item, index) => (
+                    <TimelineItem
+                        key={index}
+                        dateStart={item.dateStart}
+                        dateEnd={item.dateEnd}
+                        title={item.title}
+                        organisation={item.organisation}
+                        role={item.role}
+                        location={item.location}
+                        description={item.description}
+                        additionalList={item.additionalList}
+                    />
+                ))}
+            </div>
+        </div>
+    )
+}

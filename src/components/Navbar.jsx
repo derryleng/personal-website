@@ -73,7 +73,7 @@ function Navbar() {
     );
 
     return (
-        <div className="sticky top-0 z-50 text-black transition-colors duration-500 bg-white font-semilight dark:text-stone-200 dark:bg-slate-800 backdrop-filter backdrop-blur-md bg-opacity-10 dark:bg-opacity-30">
+        <nav className="sticky top-0 z-50 text-black transition-colors duration-500 bg-white font-semilight dark:text-stone-200 dark:bg-slate-800 backdrop-filter backdrop-blur-md bg-opacity-10 dark:bg-opacity-30">
             <div className={classNames(
                 "flex flex-row px-5 py-1 md:py-2",
                 isScrolled ? "border-b dark:border-slate-200/10 border-slate-900/10" : ""
@@ -90,7 +90,7 @@ function Navbar() {
                     </button>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 

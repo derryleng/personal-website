@@ -1,4 +1,4 @@
-function SectionTitle({ children, id }) {
+export default function SectionTitle({ children, id }) {
     return (
         <h1
             id={id}
@@ -8,5 +8,3 @@ function SectionTitle({ children, id }) {
         </h1>
     )
 }
-
-export default SectionTitle;

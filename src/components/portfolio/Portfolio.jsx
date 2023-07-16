@@ -1,3 +1,5 @@
+import portfolioItems from "./DataPortfolio";
+
 function PortfolioItem({ title, link, imgUrl, description, stack }) {
     return (
         <div className="my-4 rounded-md w-80 md:my-0 md:shadow-2xl">
@@ -21,4 +23,21 @@ function PortfolioItem({ title, link, imgUrl, description, stack }) {
     )
 }
 
-export default PortfolioItem;
+export default function Portfolio() {
+    return (
+        <div className="flex flex-row items-center justify-center py-5">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {portfolioItems.map((project, index) => (
+                    <PortfolioItem
+                        key={index}
+                        title={project.title}
+                        link={project.link}
+                        imgUrl={project.imgUrl}
+                        description={project.description}
+                        stack={project.stack}
+                    />
+                ))}
+            </div>
+        </div>
+    )
+}

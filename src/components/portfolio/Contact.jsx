@@ -1,6 +1,6 @@
 import SectionTitle from "./SectionTitle";
 
-function Contact() {
+export default function Contact() {
     return (
         <>
             <div className="flex flex-col justify-center px-2 mt-5 md:px-0 md:flex-row">
@@ -49,5 +49,3 @@ function Contact() {
 
     )
 }
-
-export default Contact;
