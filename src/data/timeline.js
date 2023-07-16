@@ -18,8 +18,19 @@ export default [
         title: "Master's Degree (Part Time)",
         organisation: "King's College London",
         role: "MSc. Global Finance Analytics",
-        location: "Winchester, UK",
-        description: "Modules covering: Investments, Corporate Finance, Financial Derivatives, Empirical Finance, Computational Finance, Big Data Analytics, Deep Learning, Wealth Management, and Global Tactical Asset Allocation.",
+        location: "London, UK",
+        description: "Modules covering:",
+        additionalList: [
+            "Investments",
+            "Corporate Finance",
+            "Financial Derivatives",
+            "Empirical Finance",
+            "Computational Finance",
+            "Big Data Analytics",
+            "Deep Learning",
+            "Wealth Management",
+            "Global Tactical Asset Allocation"
+        ]
     },
     {
         dateStart: "2018",
@@ -27,7 +38,7 @@ export default [
         title: "Working at Think Research",
         organisation: "Think Research Ltd",
         role: "Data Analyst, ATM Consultant and IT Manager",
-        location: "Winchester, UK",
+        location: "Bournemouth, UK",
         description: "Working in a small consultancy meant wearing many hats. My work at Think mostly consisted of providing data analysis to support Air Traffic Management projects with clients in the aviation industry - this mainly involved using R, SQL and creating many Shiny applications. I also managed the IT equipment at the company, this involved building/managing IT servers and databases, procuring IT equipment, and training new colleagues on technical skills.",
         additionalList: [
             "Successfully supported multiple data intensive projects involving data mining, ETL, regression analysis, time series analysis, Monte Carlo simulations, data visualisation, web dashboard development, and deploying numerous applications built using R Shiny on DigitalOcean and packaged Windows installers.",
@@ -44,7 +55,15 @@ export default [
         organisation: "London School of Economics and Political Science",
         role: "BSc. Mathematics, Statistics and Business (First Class Honours)",
         location: "London, UK",
-        description: "Modules covering: Applied Statistics (Regression and Time Series Analysis), Mathematics (Calculus, Linear Algebra), Programming (Algorithms and Discrete Maths), Econometrics, Accounting, and Market Research."
+        description: "Modules covering:",
+        additionalList: [
+            "Applied Statistics (Regression and Time Series Analysis)",
+            "Mathematics (Calculus, Linear Algebra)",
+            "Programming (Algorithms and Discrete Maths)",
+            "Econometrics",
+            "Financial Statements and Accounting",
+            "Market Research Methods"
+        ]
     },
     {
         dateStart: "2012",
