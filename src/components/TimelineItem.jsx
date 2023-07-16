@@ -4,7 +4,7 @@ function TimelineItem({ dateStart, dateEnd, title, organisation, role, location,
             <ol className="relative flex flex-col border-l md-flex-row border-stone-200">
                 <li className="ml-4 mb-14">
                     <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white" />
-                    <p className="flex flex-row flex-wrap items-center justify-start gap-4 mb-1 text-xs md:text-sm">
+                    <div className="flex flex-row flex-wrap items-center justify-start gap-4 mb-1 text-xs md:text-sm">
                         <span className="inline-block px-2 py-1 font-semibold text-white rounded-md shadow-2xl bg-stone-900">
                             {dateStart} - {dateEnd}
                         </span>
@@ -14,7 +14,7 @@ function TimelineItem({ dateStart, dateEnd, title, organisation, role, location,
                         <div className="mt-1 text-sm font-normal leading-none text-stone-400 dark:white">
                             {dateEnd - dateStart} years
                         </div>
-                    </p>
+                    </div>
                     <div className="p-6 rounded-md md:shadow-2xl">
                         <p className="text-lg font-semibold transition-colors duration-500 text-stone-900 dark:text-white">
                             {organisation}

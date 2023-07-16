@@ -7,8 +7,9 @@ function Timeline() {
         <div className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
             <div className="w-full md:w-7/12">
             <SectionTitle>Timeline</SectionTitle>
-                {timeline.map(item => (
+                {timeline.map((item, index) => (
                     <TimelineItem
+                        key={index}
                         dateStart={item.dateStart}
                         dateEnd={item.dateEnd}
                         title={item.title}
