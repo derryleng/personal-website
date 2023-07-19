@@ -5,14 +5,14 @@ import Portfolio from "../components/portfolio/Portfolio";
 import Timeline from "../components/portfolio/Timeline";
 
 export default function Root() {
-    const contents = (
-        <>
-            <Header />
-            <Portfolio />
-            <Timeline />
-            {/* <Contact /> */}
-        </>
-    );
+  const contents = (
+    <>
+      <Header />
+      <Portfolio />
+      <Timeline />
+      {/* <Contact /> */}
+    </>
+  );
 
-    return (<TemplatePage contents={contents} />);
+  return <TemplatePage contents={contents} />;
 }
