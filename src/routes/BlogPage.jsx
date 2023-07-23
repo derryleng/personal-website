@@ -1,12 +1,12 @@
 import TemplatePage from "./TemplatePage";
 
 export default function Blog() {
-    const contents = (
-        <main>
-            <h1>New Blog Page</h1>
-            <p>Welcome to my new blog page!</p>
-        </main>
-    );
+  const contents = (
+    <main className="text-center">
+      <h1>Under Construction!</h1>
+      <p>Check back soon for thrilling content.</p>
+    </main>
+  );
 
-    return (<TemplatePage contents={contents} />);
+  return <TemplatePage contents={contents} />;
 }
