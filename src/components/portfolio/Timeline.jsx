@@ -1,5 +1,4 @@
 import timelineItems from "./DataTimeline";
-import SectionTitle from "./SectionTitle";
 
 function TimelineItem({
   dateStart,
@@ -54,7 +53,6 @@ export default function Timeline() {
   return (
     <content id="timeline" className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
       <div className="w-full md:w-7/12">
-        <SectionTitle>Timeline</SectionTitle>
         {timelineItems.map((item, index) => (
           <TimelineItem
             key={index}
