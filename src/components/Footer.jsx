@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="py-2 text-center">
+    <footer id="contact" className="py-8 text-center">
       <div className="mt-4 mb-2 text-sm opacity-50">
         <p>Thank you for visiting my website today!</p>
         <p>

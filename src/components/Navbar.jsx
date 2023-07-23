@@ -82,7 +82,12 @@ function Navbar() {
             : "",
         )}
       >
-        <div className="flex items-center space-x-3"></div>
+        <div className="flex items-center space-x-6">
+          <a href="#summary" className="hover:underline underline-offset-2 decoration-1">Summary</a>
+          <a href="#portfolio" className="hover:underline underline-offset-2 decoration-1">Portfolio</a>
+          <a href="#timeline" className="hover:underline underline-offset-2 decoration-1">Timeline</a>
+          <a href="#contact" className="hover:underline underline-offset-2 decoration-1">Contact</a>
+        </div>
         <div className="flex items-center ml-auto">
           <button
             type="button"

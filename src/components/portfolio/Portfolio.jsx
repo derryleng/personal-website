@@ -30,7 +30,7 @@ function PortfolioItem({ title, link, imgUrl, description, stack }) {
 
 export default function Portfolio() {
   return (
-    <div className="flex flex-row items-center justify-center py-5">
+    <content id="portfolio" className="flex flex-row items-center justify-center py-5">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         {portfolioItems.map((project, index) => (
           <PortfolioItem
@@ -43,6 +43,6 @@ export default function Portfolio() {
           />
         ))}
       </div>
-    </div>
+    </content>
   );
 }

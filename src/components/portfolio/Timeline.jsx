@@ -12,7 +12,7 @@ function TimelineItem({
   additionalList,
 }) {
   return (
-    <div>
+    <>
       <ol className="relative flex flex-col border-l md-flex-row border-stone-200">
         <li className="ml-4 mb-14">
           <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white" />
@@ -46,13 +46,13 @@ function TimelineItem({
           </div>
         </li>
       </ol>
-    </div>
+    </>
   );
 }
 
 export default function Timeline() {
   return (
-    <div className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
+    <content id="timeline" className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
       <div className="w-full md:w-7/12">
         <SectionTitle>Timeline</SectionTitle>
         {timelineItems.map((item, index) => (
@@ -69,6 +69,6 @@ export default function Timeline() {
           />
         ))}
       </div>
-    </div>
+    </content>
   );
 }
