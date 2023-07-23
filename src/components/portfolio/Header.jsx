@@ -1,34 +1,6 @@
-import { useEffect } from "react";
 import myFace from "/assets/me_2021_365_365.jpg";
 
 export default function Header() {
-  useEffect(() => {
-    const handleAnchorClick = (event) => {
-      event.preventDefault();
-
-      const hash = event.target.hash;
-      const targetElement = document.querySelector(hash);
-
-      if (targetElement) {
-        const targetOffsetTop = targetElement.getBoundingClientRect().top;
-        const scrollOffset = targetOffsetTop - 50;
-        window.scrollBy({ top: scrollOffset, left: 0, behavior: 'smooth' });
-      }
-    };
-
-    const anchorLinks = document.querySelectorAll('a[href^="#"]');
-    anchorLinks.forEach((link) => {
-      link.addEventListener('click', handleAnchorClick);
-    });
-
-    return () => {
-      // Clean up event listener on component unmount
-      anchorLinks.forEach((link) => {
-        link.removeEventListener('click', handleAnchorClick);
-      });
-    };
-  }, []);
-
   return (
     <header id="summary" className="flex flex-col items-center justify-center px-2 py-10 text-center md:px-0">
       <img
