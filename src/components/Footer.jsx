@@ -39,14 +39,14 @@ export default function Footer() {
         >
           LinkedIn
         </a>
-        <a
+        {/* <a
           href="/blog/"
           target="_blank"
           rel="noreferrer noopener"
           className="hover:underline underline-offset-2 decoration-1"
         >
           Blog
-        </a>
+        </a> */}
       </div>
     </footer>
   );
