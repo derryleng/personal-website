@@ -51,7 +51,10 @@ function TimelineItem({
 
 export default function Timeline() {
   return (
-    <div id="timeline" className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0">
+    <div
+      id="timeline"
+      className="flex flex-col justify-center px-2 my-20 md:flex-row md:px-0"
+    >
       <div className="w-full md:w-7/12">
         {timelineItems.map((item, index) => (
           <TimelineItem

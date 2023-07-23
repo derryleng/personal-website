@@ -16,19 +16,19 @@ export default function Root() {
       if (targetElement) {
         const targetOffsetTop = targetElement.getBoundingClientRect().top;
         const scrollOffset = targetOffsetTop - 50;
-        window.scrollBy({ top: scrollOffset, left: 0, behavior: 'smooth' });
+        window.scrollBy({ top: scrollOffset, left: 0, behavior: "smooth" });
       }
     };
 
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach((link) => {
-      link.addEventListener('click', handleAnchorClick);
+      link.addEventListener("click", handleAnchorClick);
     });
 
     return () => {
       // Clean up event listener on component unmount
       anchorLinks.forEach((link) => {
-        link.removeEventListener('click', handleAnchorClick);
+        link.removeEventListener("click", handleAnchorClick);
       });
     };
   }, []);
