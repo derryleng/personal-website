@@ -33,7 +33,7 @@ function TimelineItem({
             </p>
             <p className="text-lg font-normal">{role}</p>
             <p className="mb-2 font-light text-md">{location}</p>
-            <p className="text-base font-normal text-justify transition-colors duration-500 text-stone-700 dark:text-slate-300">
+            <p className="text-base font-normal transition-colors duration-500 text-stone-700 dark:text-slate-300">
               {description}
             </p>
             {additionalList && additionalList.length > 0 && (
