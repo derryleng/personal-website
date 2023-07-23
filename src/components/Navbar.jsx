@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -72,6 +73,9 @@ function Navbar() {
     </svg>
   );
 
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
     <nav className="sticky top-0 z-50 text-black transition-colors duration-500 bg-white font-semilight dark:text-stone-200 dark:bg-slate-800 backdrop-filter backdrop-blur-md bg-opacity-10 dark:bg-opacity-30">
       <div
@@ -83,10 +87,14 @@ function Navbar() {
         )}
       >
         <div className="flex items-center space-x-6">
-          <a href="#summary" className="hover:underline underline-offset-2 decoration-1">Summary</a>
-          <a href="#portfolio" className="hover:underline underline-offset-2 decoration-1">Portfolio</a>
-          <a href="#timeline" className="hover:underline underline-offset-2 decoration-1">Timeline</a>
-          <a href="#contact" className="hover:underline underline-offset-2 decoration-1">Contact</a>
+          {isHomePage && (
+            <>
+              <a href="#summary" className="hover:underline underline-offset-2 decoration-1">Summary</a>
+              <a href="#portfolio" className="hover:underline underline-offset-2 decoration-1">Portfolio</a>
+              <a href="#timeline" className="hover:underline underline-offset-2 decoration-1">Timeline</a>
+              <a href="#contact" className="hover:underline underline-offset-2 decoration-1">Contact</a>
+            </>
+          )}
         </div>
         <div className="flex items-center ml-auto">
           <button
