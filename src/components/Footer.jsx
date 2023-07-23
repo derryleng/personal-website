@@ -8,7 +8,7 @@ export default function Footer() {
           below.
         </p>
       </div>
-      <div className="flex items-center justify-center mb-4 space-x-5 text-base opacity-50">
+      <div className="flex items-center justify-center mb-4 space-x-5 text-lg opacity-50">
         <a
           href="mailto:derry.leng@gmail.com"
           className="hover:underline underline-offset-2 decoration-1"
