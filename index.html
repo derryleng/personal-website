@@ -1,12 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #1a202c;
+          color: white;
+        }
+      }
+    </style>
+    <script>
+      if (
+        localStorage.getItem('color-theme') === 'dark' ||
+        (!('color-theme' in localStorage) &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
+    <title>Derry Leng</title>
+    <link rel="icon" type="image/png" href="/src/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="text-black transition-colors duration-1000 ease-in-out bg-white dark:bg-slate-800 dark:text-stone-200">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
