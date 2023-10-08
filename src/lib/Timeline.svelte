@@ -27,7 +27,7 @@
               {event.title}
             </p>
             <div
-              class="mt-1 text-sm font-normal leading-none text-stone-400 dark:white"
+              class="mt-1 text-sm font-normal leading-none opacity-50"
             >
               {Number(event.dateEnd) - Number(event.dateStart)} years
             </div>

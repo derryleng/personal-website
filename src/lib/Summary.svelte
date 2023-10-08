@@ -7,7 +7,7 @@
   class="flex flex-col items-center justify-center px-2 py-10 text-center md:px-0"
 >
   <img
-    class="w-20 h-20 rounded-full md:w-40 md:h-40 ring-2 ring-slate-200 border-stone-500 border-3"
+    class="rounded-full w-28 h-28 md:w-40 md:h-40 ring-2 ring-slate-200 border-stone-500 border-3"
     src={myFace}
     alt="Derry"
   />
