@@ -2,7 +2,7 @@ export default [
   {
     title: "Personal Website",
     link: "https://github.com/derryleng/personal-website",
-    imgUrl: "/personal_website.png",
+    imgUrl: "/screenshot_personal_website.png",
     description: "This website, now rebuilt in Svelte!",
     stack: ["Svelte", "Tailwind CSS", "Vite"],
   },
