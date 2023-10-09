@@ -15,9 +15,9 @@ export default [
   {
     dateStart: "2021",
     dateEnd: "2023",
-    title: "Master's Degree (Part Time)",
+    title: "Master's Degree",
     organisation: "King's College London",
-    role: "MSc. Global Finance Analytics",
+    role: "MSc. Global Finance Analytics (Distinction)",
     location: "London, UK",
     description: "Modules covering:",
     additionalList: [
