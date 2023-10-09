@@ -6,7 +6,8 @@ export default [
     organisation: "KPMG UK",
     role: "Assistant Manager - Forensic Data Analytics, FS Consulting",
     location: "London, UK",
-    description: "",
+    description:
+      "My work mostly involved using Python to build and test backend logic for web applications and bespoke software to support the development of KYC capabilities of financial instutitions, while working within an agile development team. I was also involved in providing data analysis in supporting client projects and data management for internal teams.",
     additionalList: [
       "Collaborated as part of agile teams on the development of several in-house products, building new features, support, and maintenance, as well as conducting stakeholder workshops and product demonstrations.",
       "Delivered data analysis outputs for high-value client-facing projects using R, Python, and SQL involving fraud analysis, customer risk assessment, and transaction monitoring system effectiveness for financial institutions.",
@@ -74,7 +75,7 @@ export default [
     role: "GCE A-Levels",
     location: "Winchester, UK",
     description:
-      "I attended A-Levels at Peter Symonds for two years, focusing on maths and the sciences. During this time, I founded the chess society and took part as a team in the Cipher Challenge - where I utilised coding to solve puzzles for the first time. My grades were: ",
+      "I attended A-Levels at Peter Symonds for two years, focusing on maths and the sciences. During this time, I co-founded the chess society and took part as a team in the Cipher Challenge - where I utilised coding to solve puzzles for the first time. My grades were: ",
     additionalList: [
       "A-Level Mathematics: A*",
       "A-Level Biology: A",

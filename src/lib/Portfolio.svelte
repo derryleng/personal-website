@@ -9,7 +9,7 @@
         <img
           src={project.imgUrl}
           alt={project.title}
-          class="object-cover w-full cursor-pointer h-36 md:h-48"
+          class="object-center w-full cursor-pointer h-36 md:h-48"
         />
         <div class="w-full p-4">
           <h3 class="mb-2 text-lg font-semibold md:text-xl md:mb-3">

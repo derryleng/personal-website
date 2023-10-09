@@ -1,8 +1,15 @@
 export default [
   {
+    title: "LeetCode submissions",
+    link: "https://github.com/derryleng/LeetCode",
+    imgUrl: "/leetcode.svg",
+    description: "All my LeetCode submissions.",
+    stack: ["Python", "C++", "Ruby"],
+  },
+  {
     title: "Personal Website",
     link: "https://github.com/derryleng/personal-website",
-    imgUrl: "/personal_website.png",
+    imgUrl: "/screenshot_personal_website.png",
     description: "This website, now rebuilt in Svelte!",
     stack: ["Svelte", "Tailwind CSS", "Vite"],
   },
