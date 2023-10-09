@@ -1,5 +1,5 @@
 <script>
-  import myFace from "../assets/me_2021_365_365.jpg";
+  import myFace from "/me_2021_365_365.jpg";
 </script>
 
 <header
