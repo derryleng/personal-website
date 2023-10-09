@@ -16,8 +16,9 @@
   <p class="max-w-xl text-sm text-justify">
     I am a data analyst with experience applying R, Python, SQL on data-driven
     projects within consulting firms, as well as a web developer with experience
-    building web applications using technologies such as R Shiny, Django,
-    Node.js and React, working solo and in small agile teams. I am fascinated by
-    learning new things in the world of Finance and Tech.
+    building web applications using technologies such as R Shiny, Django and
+    frontend web frameworks such as React and Svelte. Having recently graduated
+    with a Master's degree in Global Finance Analytics, I am looking to apply my
+    skills at the intersection between technology and finance.
   </p>
 </header>
