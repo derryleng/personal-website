@@ -1,6 +1,6 @@
 <script>
-  import moon from "../assets/moon-svgrepo-com.svg";
-  import sun from "../assets/sun-svgrepo-com.svg";
+  import moon from "/moon-svgrepo-com.svg";
+  import sun from "/sun-svgrepo-com.svg";
 
   let isDarkMode = localStorage.getItem("color-theme") === "dark";
 
